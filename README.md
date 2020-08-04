@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido para um processo seletivo realizado em 2020.
 
 <div align="center">
-  <img src="https://i.imgur.com/1of7QJF.png">                                                                                                
+  <img src="https://i.imgur.com/TxL7Fez.png">                                                                                                
 
 ---
 
