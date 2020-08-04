@@ -2,16 +2,16 @@
 
 Este projeto foi desenvolvido para um processo seletivo realizado em 2020.
 
-<div align="center>
-<img width="150" src="https://i.imgur.com/k095poo.png">
+<div align="center">
+  <img src="https://i.imgur.com/1of7QJF.png">                                                                                                
 
 ---
 
-* Utilizado as linguagens
+## Linguagens Utilizadas
 
-![](https://img.shields.io/badge/JavaScript-used-32CD32)
-![](https://img.shields.io/badge/NodeJS-used-3CB371)
-![](https://img.shields.io/badge/ReactJs-used-blue)
+[![alt JavaScript](https://img.shields.io/badge/JavaScript-used-32CD32)](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
+[![alt NodeJS](https://img.shields.io/badge/NodeJS-used-3CB371)](https://nodejs.org/en/)
+[![alt ReactJS](https://img.shields.io/badge/ReactJs-used-blue)](https://pt-br.reactjs.org/)
 
 ---
 
@@ -51,7 +51,7 @@ colocar um novo produto no mercado chamado FaleMais.
 - Para rodar o **Backend** da aplicação, abra o Terminal ou CMD dentro da pasta Backend e execute o comando "npm i" para baixar as
 dependências do node_modules, logo depois, rode o "npm start".
 
-- Abra o terminal na pasta frontend, execute o comando "npm i" ara baixar as
+- Abra o terminal na pasta **Frontend**, execute o comando "npm i" para baixar as
 dependências do node_modules e logo depois inicie a aplicação web pelo comando "npm start".
 
 ## 🛠 Testes
