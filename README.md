@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Telzir - FaleMais
 
-## Available Scripts
+Este projeto foi desenvolvido para um processo seletivo realizado em 2020.
 
-In the project directory, you can run:
+<div align="center>
+<img width="150" src="https://i.imgur.com/k095poo.png">
 
-### `yarn start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Utilizado as linguagens
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![](https://img.shields.io/badge/JavaScript-used-32CD32)
+![](https://img.shields.io/badge/NodeJS-used-3CB371)
+![](https://img.shields.io/badge/ReactJs-used-blue)
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Desafio
+A empresa de telefonia Telzir, especializada em chamadas de longa distância nacional, vai
+colocar um novo produto no mercado chamado FaleMais.
 
-### `yarn build`
+      Normalmente um cliente Telzir pode fazer uma chamada de uma cidade para outra pagando
+    uma tarifa fixa por minuto, com o preço sendo pré-definido em uma lista com os códigos DDDs
+    de origem e destino:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      Origem          Destino             $/min
+      011             016                  1.90
+      016             011                  2.90
+      011             017                  1.70
+      017             011                  2.70
+      011             018                  0.90
+      018             011                  1.90
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+      Com o novo produto FaleMais da Telzir o cliente adquire um plano e pode falar de graça até
+    um determinado tempo (em minutos) e só paga os minutos excedentes. Os minutos
+    excedentes tem um acréscimo de 10% sobre a tarifa normal do minuto. Os planos são
+    FaleMais 30 (30 minutos), FaleMais 60 (60 minutos) e FaleMais 120 (120 minutos).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+      A Telzir, preocupada com a transparência junto aos seus clientes, quer disponibilizar uma
+    página na web onde o cliente pode calcular o valor da ligação. Ali, o cliente pode escolher os
+    códigos das cidades de origem e destino, o tempo da ligação em minutos e escolher qual o
+    plano FaleMais. O sistema deve mostrar dois valores: (1) o valor da ligação com o plano e (2)
+    sem o plano. O custo inicial de aquisição do plano deve ser desconsiderado para este
+    problema.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Rodando a aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Para rodar o **Backend** da aplicação, abra o Terminal ou CMD dentro da pasta Backend e execute o comando "npm i" para baixar as
+dependências do node_modules, logo depois, rode o "npm start".
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Abra o terminal na pasta frontend, execute o comando "npm i" ara baixar as
+dependências do node_modules e logo depois inicie a aplicação web pelo comando "npm start".
 
-## Learn More
+## 🛠 Testes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Execute o comando "npm test" na pasta **Backend** através do Terminal ou CMD.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enjoy
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`made with 💜  by raionedeveloper © 2020`
